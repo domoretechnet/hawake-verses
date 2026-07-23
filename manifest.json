@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-07-22",
+  "baseImageURL": "https://domoretechnet.github.io/hawake-verses/images/",
+  "days": [
+    {
+      "date": "2026-07-23",
+      "reference": "Philippians 4:13",
+      "text": "I can do all things through Christ, who strengthens me.",
+      "translation": "WEB",
+      "image": "2026-07-23.jpg"
+    },
+    {
+      "date": "2026-07-24",
+      "reference": "Lamentations 3:22-23",
+      "text": "It is because of Yahweh's loving kindnesses that we are not consumed, because his compassion doesn't fail. They are new every morning. Great is your faithfulness.",
+      "translation": "WEB",
+      "image": "2026-07-24.jpg"
+    },
+    {
+      "date": "2026-07-25",
+      "reference": "Psalm 118:24",
+      "text": "This is the day that Yahweh has made. We will rejoice and be glad in it!",
+      "translation": "WEB",
+      "image": "2026-07-25.jpg"
+    }
+  ]
+}
