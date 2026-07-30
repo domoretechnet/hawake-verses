@@ -15,7 +15,8 @@ Ensure `manifest.json` contains exactly **16 contiguous days: yesterday
 through today + 14**. Yesterday is intentionally retained because the app
 uses it for a spoiler-free preview; today's entry is used when the alarm
 fires. Every day needs a valid image and public-domain verse, with no verse
-repeating within the last **183 days**, then commit and push.
+repeating within the last **183 days**. Keep only a rolling 30-day history of
+dated JPEGs in the current branch, then commit and push.
 
 ## Repo files you touch
 
@@ -23,7 +24,8 @@ repeating within the last **183 days**, then commit and push.
 - `history.json` — rolling recency ledger `{ "used": [ {date, reference} ] }`.
   READ + APPEND + PRUNE.
 - `verse-pool.json` — curated candidates `{ reference, themes[] }`. READ only.
-- `images/YYYY-MM-DD.jpg` — one portrait JPEG per day. CREATE.
+- `images/YYYY-MM-DD.jpg` — one portrait JPEG per day. CREATE + PRUNE under
+  the dated-image retention rule below.
 
 ## Fixed manifest schema — DO NOT DEVIATE
 
@@ -82,6 +84,7 @@ repeating within the last **183 days**, then commit and push.
      - `N_new = newDates.length`
      - `N_repair = repairDates.length`
      - `N_images = N_new + N_repair`
+     - `N_prune = pruneImages.length`
    - Generate exactly `N_images` images—no more. Add exactly `N_new` verse
      entries—no more. Never regenerate a valid published date merely to fill
      a batch.
@@ -91,6 +94,14 @@ repeating within the last **183 days**, then commit and push.
    - If `N_images = 0`, still normalize the manifest to the exact 16-day
      window and run validation. Commit only if normalization changed a file;
      never create an empty commit.
+   - Build `pruneImages` from files matching the exact pattern
+     `images/YYYY-MM-DD.jpg` whose filename date is strictly older than
+     **today - 30 days**. This retains 30 days of historical images plus the
+     current/future target window.
+   - Never prune a target-window image, a file without a strictly parseable
+     `YYYY-MM-DD.jpg` name, or any path outside `images/`. Resolve and print
+     the exact deletion list before deleting; never use a broad recursive
+     delete, unresolved variable, or wildcard as the deletion target.
 
 3. **Pick verses** (one per date in `newDates`, and no others):
    - Choose pool entries whose `reference` is **not** in `recent` and not
@@ -158,6 +169,8 @@ repeating within the last **183 days**, then commit and push.
    - [ ] No `reference` in the new days used within last 183 days; none repeats in-batch.
    - [ ] Every `image` file exists, name matches its `date`, JPEG 1080×1920, ≤ 400 KB.
    - [ ] No baked-in text in any image; lower third calm.
+   - [ ] No dated JPEG older than today - 30 remains in `images/`; no
+         non-dated file was removed.
    - [ ] `manifest.json` and `history.json` are valid JSON and parse.
 
 7. **Write output.**
@@ -170,6 +183,9 @@ repeating within the last **183 days**, then commit and push.
    - Append one `{ "date", "reference" }` to `history.json` `used[]` for every
      date in `newDates` only. Do not append duplicates for `existingValid` or
      `repairDates`. **Prune** entries older than ~400 days.
+   - Delete every file in the already-reviewed `pruneImages` list using its
+     exact explicit path. These deletions reduce the current branch and
+     published Pages site; they do **not** remove old blobs from Git history.
 
 8. **Commit & push.**
    - `git add manifest.json history.json images/`
