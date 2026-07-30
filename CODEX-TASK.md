@@ -11,8 +11,10 @@ Pages site. Your job is to keep `manifest.json`, `history.json`, and the
 
 ## Goal each run
 
-Ensure `manifest.json` covers **today through today + 13** (a rolling 14-day
-horizon), with a valid image and public-domain verse for every day, no verse
+Ensure `manifest.json` contains exactly **16 contiguous days: yesterday
+through today + 14**. Yesterday is intentionally retained because the app
+uses it for a spoiler-free preview; today's entry is used when the alarm
+fires. Every day needs a valid image and public-domain verse, with no verse
 repeating within the last **183 days**, then commit and push.
 
 ## Repo files you touch
@@ -66,13 +68,31 @@ repeating within the last **183 days**, then commit and push.
    - Load `manifest.json` (or treat as empty if missing/blank).
 
 2. **Compute the window.**
-   - Target coverage = **today … today + 13**.
-   - The days to (re)fill = every date in that window not already present in
-     `manifest.days` with a valid image. Let **N** = count. If N = 0, the
-     manifest is already current — still run validation (step 6) and stop
-     without an empty commit.
+   - Build `targetDates` as the **16 calendar dates from yesterday through
+     today + 14, inclusive**.
+   - Inspect each target date and classify it:
+     - `existingValid`: a manifest entry exists and its image passes all
+       filename, JPEG, dimension, size, and visual checks. Preserve it
+       unchanged.
+     - `newDates`: no manifest entry exists. These need a new verse and image.
+     - `repairDates`: an entry exists but its image is missing or invalid.
+       Preserve that entry's date, verse, text, and translation; regenerate
+       only its image.
+   - Calculate and report:
+     - `N_new = newDates.length`
+     - `N_repair = repairDates.length`
+     - `N_images = N_new + N_repair`
+   - Generate exactly `N_images` images—no more. Add exactly `N_new` verse
+     entries—no more. Never regenerate a valid published date merely to fill
+     a batch.
+   - A missing yesterday entry is an integrity problem: recover its original
+     published entry from git history and its image if possible. Never assign
+     a different verse retroactively to a past date.
+   - If `N_images = 0`, still normalize the manifest to the exact 16-day
+     window and run validation. Commit only if normalization changed a file;
+     never create an empty commit.
 
-3. **Pick verses** (one per new day):
+3. **Pick verses** (one per date in `newDates`, and no others):
    - Choose pool entries whose `reference` is **not** in `recent` and not
      already chosen in this batch.
    - **Vary `themes`** across the batch — don't stack same-theme days.
@@ -85,22 +105,35 @@ repeating within the last **183 days**, then commit and push.
    wording (not a copyrighted translation). Do not paraphrase or modernize.
    Record exact `text` + `translation`.
 
-5. **Generate one image per verse.** Portrait **JPEG, 1080×1920**,
-   compressed to **≤ 400 KB**, saved as `images/YYYY-MM-DD.jpg`. Use the
-   prompt template, filling slots from the verse's `themes`. Keep a
-   **consistent visual identity across the batch** (shared palette/mood).
+5. **Generate exactly `N_images` images.** For `newDates`, create one image
+   for the newly selected verse. For `repairDates`, create one replacement
+   image for the existing paired verse. Every output is a portrait **JPEG,
+   1080×1920**, compressed to **≤ 400 KB**, saved as
+   `images/YYYY-MM-DD.jpg`.
+
+   Choose each visual concept from the paired verse itself: its words,
+   imagery, emotional tone, and `themes`. The image must clearly relate to
+   that specific verse and leave the app's text readable, but otherwise use
+   real stylistic freedom. Vary subject matter, lighting, palette, visual
+   metaphor, and medium where it serves the verse. Photographic, painterly,
+   illustrative, atmospheric, and restrained abstract scenes are all valid.
+   Avoid making every verse another version of the same dawn landscape.
 
    Prompt template:
    ```
-   A reverent, {MOOD} portrait 9:16 image evoking {THEME}: {SCENE}.
-   Style: {STYLE} — soft natural light, {PALETTE} palette, gentle and
-   uplifting, abstract/scenic, no religious kitsch.
-   Composition: keep the LOWER THIRD visually calm and uncluttered (soft
-   gradient / sky / water / negative space) for legible text overlay.
+   A polished portrait 9:16 image meaningfully inspired by
+   {REFERENCE} and its themes {THEMES}: {VERSE_SPECIFIC_CONCEPT}.
+   Artistic direction: choose the style, medium, palette, lighting, and
+   visual metaphor that best express this particular verse. Be creative
+   and distinctive while remaining reverent and avoiding religious kitsch.
+   Composition: reserve a calm, low-contrast, uncluttered area across the
+   LOWER THIRD (negative space, soft depth of field, sky, water, mist, or
+   another scene-appropriate treatment) so the app's verse overlay remains
+   easy to read.
    Absolutely NO text, letters, words, watermarks, logos, or people's faces.
-   Photographic/painterly, high quality, timeless.
+   High quality, intentional, timeless.
    ```
-   Theme → slot cheat sheet:
+   Optional theme inspiration — **not a required theme → scene mapping**:
    | Theme | MOOD | SCENE | PALETTE |
    |-------|------|-------|---------|
    | strength/courage | resolute, calm | dawn over a mountain ridge | warm gold + deep blue |
@@ -116,7 +149,10 @@ repeating within the last **183 days**, then commit and push.
 6. **Validate** (fix any failure before writing):
    - [ ] `schemaVersion` == 1; `updated` == today.
    - [ ] `baseImageURL` absolute, ends with `/`.
-   - [ ] `days` chronological, **contiguous**, covers **today + ≥7** (aim 14).
+   - [ ] `days` has exactly **16** entries, chronological and contiguous,
+         covering **yesterday through today + 14**.
+   - [ ] Yesterday exists for the intentional spoiler-free preview; today
+         exists for the alarm.
    - [ ] Every `date` a bare `YYYY-MM-DD`.
    - [ ] Every `translation` is `WEB` or `KJV`; text matches reference+translation.
    - [ ] No `reference` in the new days used within last 183 days; none repeats in-batch.
@@ -127,9 +163,13 @@ repeating within the last **183 days**, then commit and push.
 7. **Write output.**
    - Save all images into `images/`.
    - Rewrite `manifest.json`: bump `updated` to today, merge old + new days,
-     keep them sorted/contiguous, ensure today + ≥7 coverage.
+     preserve valid target entries, repair only invalid images, then retain
+     exactly the 16 sorted contiguous target dates from yesterday through
+     today + 14. Remove older and farther-future entries from `days[]`; image
+     files may remain in the repository for caching/history.
    - Append one `{ "date", "reference" }` to `history.json` `used[]` for every
-     newly published day. **Prune** entries older than ~400 days.
+     date in `newDates` only. Do not append duplicates for `existingValid` or
+     `repairDates`. **Prune** entries older than ~400 days.
 
 8. **Commit & push.**
    - `git add manifest.json history.json images/`
@@ -148,8 +188,9 @@ repeating within the last **183 days**, then commit and push.
 
 ## Why ahead-of-schedule matters (app context)
 
-The app caches ~7 days offline and shows the day's verse after **every alarm
-the user has enabled it on** (no once-per-day cap; the same verse serves the
-whole local day). If the manifest ever falls behind today or has a gap, users
-hit the bundled offline fallback instead of the intended verse. Always leave
-the horizon full.
+The app intentionally uses yesterday's verse for a spoiler-free preview, then
+shows today's verse after **every alarm the user has enabled it on** (no
+once-per-day cap; the same verse serves the whole local day). The 16-day
+window therefore starts at yesterday and extends through today + 14. If the
+manifest ever loses yesterday, falls behind today, or has a gap, users hit
+the bundled offline fallback instead of the intended verse.
