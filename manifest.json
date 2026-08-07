@@ -1,71 +1,8 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-07-29",
+  "updated": "2026-08-07",
   "baseImageURL": "https://domoretechnet.github.io/hawake-verses/images/",
   "days": [
-    {
-      "date": "2026-07-28",
-      "reference": "Joshua 1:9",
-      "text": "Haven’t I commanded you? Be strong and courageous. Don’t be afraid. Don’t be dismayed, for Yahweh your God is with you wherever you go.”",
-      "translation": "WEB",
-      "image": "2026-07-28.jpg"
-    },
-    {
-      "date": "2026-07-29",
-      "reference": "Psalm 46:10",
-      "text": "“Be still, and know that I am God. I will be exalted among the nations. I will be exalted in the earth.”",
-      "translation": "WEB",
-      "image": "2026-07-29.jpg"
-    },
-    {
-      "date": "2026-07-30",
-      "reference": "Romans 8:28",
-      "text": "We know that all things work together for good for those who love God, to those who are called according to his purpose.",
-      "translation": "WEB",
-      "image": "2026-07-30.jpg"
-    },
-    {
-      "date": "2026-07-31",
-      "reference": "Matthew 11:28",
-      "text": "“Come to me, all you who labor and are heavily burdened, and I will give you rest.",
-      "translation": "WEB",
-      "image": "2026-07-31.jpg"
-    },
-    {
-      "date": "2026-08-01",
-      "reference": "Zephaniah 3:17",
-      "text": "Yahweh, your God, is among you, a mighty one who will save. He will rejoice over you with joy. He will calm you in his love. He will rejoice over you with singing.",
-      "translation": "WEB",
-      "image": "2026-08-01.jpg"
-    },
-    {
-      "date": "2026-08-02",
-      "reference": "Psalm 23:1",
-      "text": "Yahweh is my shepherd: I shall lack nothing.",
-      "translation": "WEB",
-      "image": "2026-08-02.jpg"
-    },
-    {
-      "date": "2026-08-03",
-      "reference": "Jeremiah 29:11",
-      "text": "For I know the thoughts that I think toward you,” says Yahweh, “thoughts of peace, and not of evil, to give you hope and a future.",
-      "translation": "WEB",
-      "image": "2026-08-03.jpg"
-    },
-    {
-      "date": "2026-08-04",
-      "reference": "John 3:16",
-      "text": "For God so loved the world, that he gave his one and only Son, that whoever believes in him should not perish, but have eternal life.",
-      "translation": "WEB",
-      "image": "2026-08-04.jpg"
-    },
-    {
-      "date": "2026-08-05",
-      "reference": "Psalm 121:1-2",
-      "text": "I will lift up my eyes to the hills. Where does my help come from? My help comes from Yahweh, who made heaven and earth.",
-      "translation": "WEB",
-      "image": "2026-08-05.jpg"
-    },
     {
       "date": "2026-08-06",
       "reference": "Psalm 143:8",
@@ -114,6 +51,69 @@
       "text": "Let all that you do be done in love.",
       "translation": "WEB",
       "image": "2026-08-12.jpg"
+    },
+    {
+      "date": "2026-08-13",
+      "reference": "Psalm 90:14",
+      "text": "Satisfy us in the morning with your loving kindness, that we may rejoice and be glad all our days.",
+      "translation": "WEB",
+      "image": "2026-08-13.jpg"
+    },
+    {
+      "date": "2026-08-14",
+      "reference": "Psalm 100:4-5",
+      "text": "Enter into his gates with thanksgiving, and into his courts with praise. Give thanks to him, and bless his name. For Yahweh is good. His loving kindness endures forever, his faithfulness to all generations.",
+      "translation": "WEB",
+      "image": "2026-08-14.jpg"
+    },
+    {
+      "date": "2026-08-15",
+      "reference": "Psalm 147:3",
+      "text": "He heals the broken in heart, and binds up their wounds.",
+      "translation": "WEB",
+      "image": "2026-08-15.jpg"
+    },
+    {
+      "date": "2026-08-16",
+      "reference": "Isaiah 43:2",
+      "text": "When you pass through the waters, I will be with you, and through the rivers, they will not overflow you. When you walk through the fire, you will not be burned, and flame will not scorch you.",
+      "translation": "WEB",
+      "image": "2026-08-16.jpg"
+    },
+    {
+      "date": "2026-08-17",
+      "reference": "Matthew 5:14-16",
+      "text": "“You are the light of the world. A city located on a hill can’t be hidden. Neither do you light a lamp and put it under a measuring basket, but on a stand; and it shines to all who are in the house. Even so, let your light shine before men, that they may see your good works and glorify your Father who is in heaven.",
+      "translation": "WEB",
+      "image": "2026-08-17.jpg"
+    },
+    {
+      "date": "2026-08-18",
+      "reference": "Romans 12:12",
+      "text": "rejoicing in hope, enduring in troubles, continuing steadfastly in prayer,",
+      "translation": "WEB",
+      "image": "2026-08-18.jpg"
+    },
+    {
+      "date": "2026-08-19",
+      "reference": "Philippians 1:6",
+      "text": "being confident of this very thing, that he who began a good work in you will complete it until the day of Jesus Christ.",
+      "translation": "WEB",
+      "image": "2026-08-19.jpg"
+    },
+    {
+      "date": "2026-08-20",
+      "reference": "James 1:5",
+      "text": "But if any of you lacks wisdom, let him ask of God, who gives to all liberally and without reproach, and it will be given to him.",
+      "translation": "WEB",
+      "image": "2026-08-20.jpg"
+    },
+    {
+      "date": "2026-08-21",
+      "reference": "Exodus 14:14",
+      "text": "Yahweh will fight for you, and you shall be still.",
+      "translation": "WEB",
+      "image": "2026-08-21.jpg"
     }
   ]
 }
