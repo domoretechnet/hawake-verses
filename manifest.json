@@ -1,50 +1,8 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-08-07",
+  "updated": "2026-08-13",
   "baseImageURL": "https://domoretechnet.github.io/hawake-verses/images/",
   "days": [
-    {
-      "date": "2026-08-06",
-      "reference": "Psalm 143:8",
-      "text": "Cause me to hear your loving kindness in the morning, for I trust in you. Cause me to know the way in which I should walk, for I lift up my soul to you.",
-      "translation": "WEB",
-      "image": "2026-08-06.jpg"
-    },
-    {
-      "date": "2026-08-07",
-      "reference": "Philippians 4:6-7",
-      "text": "In nothing be anxious, but in everything, by prayer and petition with thanksgiving, let your requests be made known to God. And the peace of God, which surpasses all understanding, will guard your hearts and your thoughts in Christ Jesus.",
-      "translation": "WEB",
-      "image": "2026-08-07.jpg"
-    },
-    {
-      "date": "2026-08-08",
-      "reference": "Psalm 30:5",
-      "text": "For his anger is but for a moment. His favor is for a lifetime. Weeping may stay for the night, but joy comes in the morning.",
-      "translation": "WEB",
-      "image": "2026-08-08.jpg"
-    },
-    {
-      "date": "2026-08-09",
-      "reference": "Colossians 3:23",
-      "text": "And whatever you do, work heartily, as for the Lord and not for men,",
-      "translation": "WEB",
-      "image": "2026-08-09.jpg"
-    },
-    {
-      "date": "2026-08-10",
-      "reference": "Psalm 91:1-2",
-      "text": "He who dwells in the secret place of the Most High will rest in the shadow of the Almighty. I will say of Yahweh, “He is my refuge and my fortress; my God, in whom I trust.”",
-      "translation": "WEB",
-      "image": "2026-08-10.jpg"
-    },
-    {
-      "date": "2026-08-11",
-      "reference": "Isaiah 40:31",
-      "text": "but those who wait for Yahweh will renew their strength. They will mount up with wings like eagles. They will run, and not be weary. They will walk, and not faint.",
-      "translation": "WEB",
-      "image": "2026-08-11.jpg"
-    },
     {
       "date": "2026-08-12",
       "reference": "1 Corinthians 16:14",
@@ -114,6 +72,48 @@
       "text": "Yahweh will fight for you, and you shall be still.",
       "translation": "WEB",
       "image": "2026-08-21.jpg"
+    },
+    {
+      "date": "2026-08-22",
+      "reference": "Psalm 63:1",
+      "text": "God, you are my God. I will earnestly seek you. My soul thirsts for you. My flesh longs for you, in a dry and weary land, where there is no water.",
+      "translation": "WEB",
+      "image": "2026-08-22.jpg"
+    },
+    {
+      "date": "2026-08-23",
+      "reference": "Deuteronomy 31:8",
+      "text": "Yahweh himself is who goes before you. He will be with you. He will not fail you nor forsake you. Don’t be afraid. Don’t be discouraged.”",
+      "translation": "WEB",
+      "image": "2026-08-23.jpg"
+    },
+    {
+      "date": "2026-08-24",
+      "reference": "James 1:17",
+      "text": "Every good gift and every perfect gift is from above, coming down from the Father of lights, with whom can be no variation, nor turning shadow.",
+      "translation": "WEB",
+      "image": "2026-08-24.jpg"
+    },
+    {
+      "date": "2026-08-25",
+      "reference": "Isaiah 26:3",
+      "text": "You will keep whoever’s mind is steadfast in perfect peace, because he trusts in you.",
+      "translation": "WEB",
+      "image": "2026-08-25.jpg"
+    },
+    {
+      "date": "2026-08-26",
+      "reference": "Micah 6:8",
+      "text": "He has shown you, O man, what is good. What does Yahweh require of you, but to act justly, to love mercy, and to walk humbly with your God?",
+      "translation": "WEB",
+      "image": "2026-08-26.jpg"
+    },
+    {
+      "date": "2026-08-27",
+      "reference": "Galatians 6:9",
+      "text": "Let us not be weary in doing good, for we will reap in due season, if we don’t give up.",
+      "translation": "WEB",
+      "image": "2026-08-27.jpg"
     }
   ]
 }
