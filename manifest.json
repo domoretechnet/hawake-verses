@@ -1,57 +1,8 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-08-13",
+  "updated": "2026-08-20",
   "baseImageURL": "https://domoretechnet.github.io/hawake-verses/images/",
   "days": [
-    {
-      "date": "2026-08-12",
-      "reference": "1 Corinthians 16:14",
-      "text": "Let all that you do be done in love.",
-      "translation": "WEB",
-      "image": "2026-08-12.jpg"
-    },
-    {
-      "date": "2026-08-13",
-      "reference": "Psalm 90:14",
-      "text": "Satisfy us in the morning with your loving kindness, that we may rejoice and be glad all our days.",
-      "translation": "WEB",
-      "image": "2026-08-13.jpg"
-    },
-    {
-      "date": "2026-08-14",
-      "reference": "Psalm 100:4-5",
-      "text": "Enter into his gates with thanksgiving, and into his courts with praise. Give thanks to him, and bless his name. For Yahweh is good. His loving kindness endures forever, his faithfulness to all generations.",
-      "translation": "WEB",
-      "image": "2026-08-14.jpg"
-    },
-    {
-      "date": "2026-08-15",
-      "reference": "Psalm 147:3",
-      "text": "He heals the broken in heart, and binds up their wounds.",
-      "translation": "WEB",
-      "image": "2026-08-15.jpg"
-    },
-    {
-      "date": "2026-08-16",
-      "reference": "Isaiah 43:2",
-      "text": "When you pass through the waters, I will be with you, and through the rivers, they will not overflow you. When you walk through the fire, you will not be burned, and flame will not scorch you.",
-      "translation": "WEB",
-      "image": "2026-08-16.jpg"
-    },
-    {
-      "date": "2026-08-17",
-      "reference": "Matthew 5:14-16",
-      "text": "“You are the light of the world. A city located on a hill can’t be hidden. Neither do you light a lamp and put it under a measuring basket, but on a stand; and it shines to all who are in the house. Even so, let your light shine before men, that they may see your good works and glorify your Father who is in heaven.",
-      "translation": "WEB",
-      "image": "2026-08-17.jpg"
-    },
-    {
-      "date": "2026-08-18",
-      "reference": "Romans 12:12",
-      "text": "rejoicing in hope, enduring in troubles, continuing steadfastly in prayer,",
-      "translation": "WEB",
-      "image": "2026-08-18.jpg"
-    },
     {
       "date": "2026-08-19",
       "reference": "Philippians 1:6",
@@ -114,6 +65,55 @@
       "text": "Let us not be weary in doing good, for we will reap in due season, if we don’t give up.",
       "translation": "WEB",
       "image": "2026-08-27.jpg"
+    },
+    {
+      "date": "2026-08-28",
+      "reference": "Psalm 19:14",
+      "text": "Let the words of my mouth and the meditation of my heart be acceptable in your sight, Yahweh, my rock, and my redeemer.",
+      "translation": "WEB",
+      "image": "2026-08-28.jpg"
+    },
+    {
+      "date": "2026-08-29",
+      "reference": "Hebrews 12:1-2",
+      "text": "Therefore let’s also, seeing we are surrounded by so great a cloud of witnesses, lay aside every weight and the sin which so easily entangles us, and let’s run with perseverance the race that is set before us, looking to Jesus, the author and perfecter of faith, who for the joy that was set before him endured the cross, despising its shame, and has sat down at the right hand of the throne of God.",
+      "translation": "WEB",
+      "image": "2026-08-29.jpg"
+    },
+    {
+      "date": "2026-08-30",
+      "reference": "Nahum 1:7",
+      "text": "Yahweh is good, a stronghold in the day of trouble; and he knows those who take refuge in him.",
+      "translation": "WEB",
+      "image": "2026-08-30.jpg"
+    },
+    {
+      "date": "2026-08-31",
+      "reference": "Proverbs 4:23",
+      "text": "Keep your heart with all diligence, for out of it is the wellspring of life.",
+      "translation": "WEB",
+      "image": "2026-08-31.jpg"
+    },
+    {
+      "date": "2026-09-01",
+      "reference": "Romans 15:13",
+      "text": "Now may the God of hope fill you with all joy and peace in believing, that you may abound in hope in the power of the Holy Spirit.",
+      "translation": "WEB",
+      "image": "2026-09-01.jpg"
+    },
+    {
+      "date": "2026-09-02",
+      "reference": "Ephesians 4:32",
+      "text": "And be kind to one another, tender hearted, forgiving each other, just as God also in Christ forgave you.",
+      "translation": "WEB",
+      "image": "2026-09-02.jpg"
+    },
+    {
+      "date": "2026-09-03",
+      "reference": "Isaiah 58:11",
+      "text": "and Yahweh will guide you continually, satisfy your soul in dry places, and make your bones strong. You will be like a watered garden, and like a spring of water whose waters don’t fail.",
+      "translation": "WEB",
+      "image": "2026-09-03.jpg"
     }
   ]
 }
