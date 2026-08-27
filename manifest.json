@@ -1,57 +1,8 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-08-20",
+  "updated": "2026-08-27",
   "baseImageURL": "https://domoretechnet.github.io/hawake-verses/images/",
   "days": [
-    {
-      "date": "2026-08-19",
-      "reference": "Philippians 1:6",
-      "text": "being confident of this very thing, that he who began a good work in you will complete it until the day of Jesus Christ.",
-      "translation": "WEB",
-      "image": "2026-08-19.jpg"
-    },
-    {
-      "date": "2026-08-20",
-      "reference": "James 1:5",
-      "text": "But if any of you lacks wisdom, let him ask of God, who gives to all liberally and without reproach, and it will be given to him.",
-      "translation": "WEB",
-      "image": "2026-08-20.jpg"
-    },
-    {
-      "date": "2026-08-21",
-      "reference": "Exodus 14:14",
-      "text": "Yahweh will fight for you, and you shall be still.",
-      "translation": "WEB",
-      "image": "2026-08-21.jpg"
-    },
-    {
-      "date": "2026-08-22",
-      "reference": "Psalm 63:1",
-      "text": "God, you are my God. I will earnestly seek you. My soul thirsts for you. My flesh longs for you, in a dry and weary land, where there is no water.",
-      "translation": "WEB",
-      "image": "2026-08-22.jpg"
-    },
-    {
-      "date": "2026-08-23",
-      "reference": "Deuteronomy 31:8",
-      "text": "Yahweh himself is who goes before you. He will be with you. He will not fail you nor forsake you. Don’t be afraid. Don’t be discouraged.”",
-      "translation": "WEB",
-      "image": "2026-08-23.jpg"
-    },
-    {
-      "date": "2026-08-24",
-      "reference": "James 1:17",
-      "text": "Every good gift and every perfect gift is from above, coming down from the Father of lights, with whom can be no variation, nor turning shadow.",
-      "translation": "WEB",
-      "image": "2026-08-24.jpg"
-    },
-    {
-      "date": "2026-08-25",
-      "reference": "Isaiah 26:3",
-      "text": "You will keep whoever’s mind is steadfast in perfect peace, because he trusts in you.",
-      "translation": "WEB",
-      "image": "2026-08-25.jpg"
-    },
     {
       "date": "2026-08-26",
       "reference": "Micah 6:8",
@@ -114,6 +65,55 @@
       "text": "and Yahweh will guide you continually, satisfy your soul in dry places, and make your bones strong. You will be like a watered garden, and like a spring of water whose waters don’t fail.",
       "translation": "WEB",
       "image": "2026-09-03.jpg"
+    },
+    {
+      "date": "2026-09-04",
+      "reference": "Matthew 6:34",
+      "text": "Therefore don’t be anxious for tomorrow, for tomorrow will be anxious for itself. Each day’s own evil is sufficient.",
+      "translation": "WEB",
+      "image": "2026-09-04.jpg"
+    },
+    {
+      "date": "2026-09-05",
+      "reference": "Psalm 34:8",
+      "text": "Oh taste and see that Yahweh is good. Blessed is the man who takes refuge in him.",
+      "translation": "WEB",
+      "image": "2026-09-05.jpg"
+    },
+    {
+      "date": "2026-09-06",
+      "reference": "2 Timothy 1:7",
+      "text": "For God didn’t give us a spirit of fear, but of power, love, and self-control.",
+      "translation": "WEB",
+      "image": "2026-09-06.jpg"
+    },
+    {
+      "date": "2026-09-07",
+      "reference": "1 Peter 5:7",
+      "text": "casting all your worries on him, because he cares for you.",
+      "translation": "WEB",
+      "image": "2026-09-07.jpg"
+    },
+    {
+      "date": "2026-09-08",
+      "reference": "Proverbs 17:22",
+      "text": "A cheerful heart makes good medicine, but a crushed spirit dries up the bones.",
+      "translation": "WEB",
+      "image": "2026-09-08.jpg"
+    },
+    {
+      "date": "2026-09-09",
+      "reference": "1 John 4:19",
+      "text": "We love him, because he first loved us.",
+      "translation": "WEB",
+      "image": "2026-09-09.jpg"
+    },
+    {
+      "date": "2026-09-10",
+      "reference": "Psalm 119:105",
+      "text": "Your word is a lamp to my feet, and a light for my path.",
+      "translation": "WEB",
+      "image": "2026-09-10.jpg"
     }
   ]
 }
