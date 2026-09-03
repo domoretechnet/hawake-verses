@@ -1,57 +1,8 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-08-27",
+  "updated": "2026-09-03",
   "baseImageURL": "https://domoretechnet.github.io/hawake-verses/images/",
   "days": [
-    {
-      "date": "2026-08-26",
-      "reference": "Micah 6:8",
-      "text": "He has shown you, O man, what is good. What does Yahweh require of you, but to act justly, to love mercy, and to walk humbly with your God?",
-      "translation": "WEB",
-      "image": "2026-08-26.jpg"
-    },
-    {
-      "date": "2026-08-27",
-      "reference": "Galatians 6:9",
-      "text": "Let us not be weary in doing good, for we will reap in due season, if we don’t give up.",
-      "translation": "WEB",
-      "image": "2026-08-27.jpg"
-    },
-    {
-      "date": "2026-08-28",
-      "reference": "Psalm 19:14",
-      "text": "Let the words of my mouth and the meditation of my heart be acceptable in your sight, Yahweh, my rock, and my redeemer.",
-      "translation": "WEB",
-      "image": "2026-08-28.jpg"
-    },
-    {
-      "date": "2026-08-29",
-      "reference": "Hebrews 12:1-2",
-      "text": "Therefore let’s also, seeing we are surrounded by so great a cloud of witnesses, lay aside every weight and the sin which so easily entangles us, and let’s run with perseverance the race that is set before us, looking to Jesus, the author and perfecter of faith, who for the joy that was set before him endured the cross, despising its shame, and has sat down at the right hand of the throne of God.",
-      "translation": "WEB",
-      "image": "2026-08-29.jpg"
-    },
-    {
-      "date": "2026-08-30",
-      "reference": "Nahum 1:7",
-      "text": "Yahweh is good, a stronghold in the day of trouble; and he knows those who take refuge in him.",
-      "translation": "WEB",
-      "image": "2026-08-30.jpg"
-    },
-    {
-      "date": "2026-08-31",
-      "reference": "Proverbs 4:23",
-      "text": "Keep your heart with all diligence, for out of it is the wellspring of life.",
-      "translation": "WEB",
-      "image": "2026-08-31.jpg"
-    },
-    {
-      "date": "2026-09-01",
-      "reference": "Romans 15:13",
-      "text": "Now may the God of hope fill you with all joy and peace in believing, that you may abound in hope in the power of the Holy Spirit.",
-      "translation": "WEB",
-      "image": "2026-09-01.jpg"
-    },
     {
       "date": "2026-09-02",
       "reference": "Ephesians 4:32",
@@ -114,6 +65,55 @@
       "text": "Your word is a lamp to my feet, and a light for my path.",
       "translation": "WEB",
       "image": "2026-09-10.jpg"
+    },
+    {
+      "date": "2026-09-11",
+      "reference": "Psalm 51:10",
+      "text": "Create in me a clean heart, O God. Renew a right spirit within me.",
+      "translation": "WEB",
+      "image": "2026-09-11.jpg"
+    },
+    {
+      "date": "2026-09-12",
+      "reference": "1 Thessalonians 5:16-18",
+      "text": "Rejoice always. Pray without ceasing. In everything give thanks, for this is the will of God in Christ Jesus toward you.",
+      "translation": "WEB",
+      "image": "2026-09-12.jpg"
+    },
+    {
+      "date": "2026-09-13",
+      "reference": "John 14:27",
+      "text": "Peace I leave with you. My peace I give to you; not as the world gives, give I to you. Don’t let your heart be troubled, neither let it be fearful.",
+      "translation": "WEB",
+      "image": "2026-09-13.jpg"
+    },
+    {
+      "date": "2026-09-14",
+      "reference": "Psalm 46:1",
+      "text": "God is our refuge and strength, a very present help in trouble.",
+      "translation": "WEB",
+      "image": "2026-09-14.jpg"
+    },
+    {
+      "date": "2026-09-15",
+      "reference": "Acts 20:35",
+      "text": "In all things I gave you an example, that so laboring you ought to help the weak, and to remember the words of the Lord Jesus, that he himself said, ‘It is more blessed to give than to receive.’”",
+      "translation": "WEB",
+      "image": "2026-09-15.jpg"
+    },
+    {
+      "date": "2026-09-16",
+      "reference": "Proverbs 16:3",
+      "text": "Commit your deeds to Yahweh, and your plans shall succeed.",
+      "translation": "WEB",
+      "image": "2026-09-16.jpg"
+    },
+    {
+      "date": "2026-09-17",
+      "reference": "1 Peter 5:10",
+      "text": "But may the God of all grace, who called you to his eternal glory by Christ Jesus, after you have suffered a little while, perfect, establish, strengthen, and settle you.",
+      "translation": "WEB",
+      "image": "2026-09-17.jpg"
     }
   ]
 }
