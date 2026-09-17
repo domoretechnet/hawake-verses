@@ -1,57 +1,8 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-09-10",
+  "updated": "2026-09-17",
   "baseImageURL": "https://domoretechnet.github.io/hawake-verses/images/",
   "days": [
-    {
-      "date": "2026-09-09",
-      "reference": "1 John 4:19",
-      "text": "We love him, because he first loved us.",
-      "translation": "WEB",
-      "image": "2026-09-09.jpg"
-    },
-    {
-      "date": "2026-09-10",
-      "reference": "Psalm 119:105",
-      "text": "Your word is a lamp to my feet, and a light for my path.",
-      "translation": "WEB",
-      "image": "2026-09-10.jpg"
-    },
-    {
-      "date": "2026-09-11",
-      "reference": "Psalm 51:10",
-      "text": "Create in me a clean heart, O God. Renew a right spirit within me.",
-      "translation": "WEB",
-      "image": "2026-09-11.jpg"
-    },
-    {
-      "date": "2026-09-12",
-      "reference": "1 Thessalonians 5:16-18",
-      "text": "Rejoice always. Pray without ceasing. In everything give thanks, for this is the will of God in Christ Jesus toward you.",
-      "translation": "WEB",
-      "image": "2026-09-12.jpg"
-    },
-    {
-      "date": "2026-09-13",
-      "reference": "John 14:27",
-      "text": "Peace I leave with you. My peace I give to you; not as the world gives, give I to you. Don’t let your heart be troubled, neither let it be fearful.",
-      "translation": "WEB",
-      "image": "2026-09-13.jpg"
-    },
-    {
-      "date": "2026-09-14",
-      "reference": "Psalm 46:1",
-      "text": "God is our refuge and strength, a very present help in trouble.",
-      "translation": "WEB",
-      "image": "2026-09-14.jpg"
-    },
-    {
-      "date": "2026-09-15",
-      "reference": "Acts 20:35",
-      "text": "In all things I gave you an example, that so laboring you ought to help the weak, and to remember the words of the Lord Jesus, that he himself said, ‘It is more blessed to give than to receive.’”",
-      "translation": "WEB",
-      "image": "2026-09-15.jpg"
-    },
     {
       "date": "2026-09-16",
       "reference": "Proverbs 16:3",
@@ -114,6 +65,55 @@
       "text": "If we confess our sins, he is faithful and righteous to forgive us the sins, and to cleanse us from all unrighteousness.",
       "translation": "WEB",
       "image": "2026-09-24.jpg"
+    },
+    {
+      "date": "2026-09-25",
+      "reference": "Psalm 27:1",
+      "text": "Yahweh is my light and my salvation. Whom shall I fear? Yahweh is the strength of my life. Of whom shall I be afraid?",
+      "translation": "WEB",
+      "image": "2026-09-25.jpg"
+    },
+    {
+      "date": "2026-09-26",
+      "reference": "Psalm 55:22",
+      "text": "Cast your burden on Yahweh, and he will sustain you. He will never allow the righteous to be moved.",
+      "translation": "WEB",
+      "image": "2026-09-26.jpg"
+    },
+    {
+      "date": "2026-09-27",
+      "reference": "Psalm 103:1-2",
+      "text": "Praise Yahweh, my soul! All that is within me, praise his holy name! Praise Yahweh, my soul, and don’t forget all his benefits;",
+      "translation": "WEB",
+      "image": "2026-09-27.jpg"
+    },
+    {
+      "date": "2026-09-28",
+      "reference": "Jeremiah 17:7-8",
+      "text": "“Blessed is the man who trusts in Yahweh, and whose confidence is in Yahweh. For he will be as a tree planted by the waters, who spreads out its roots by the river, and will not fear when heat comes, but its leaf will be green; and will not be concerned in the year of drought. It won’t cease from yielding fruit.",
+      "translation": "WEB",
+      "image": "2026-09-28.jpg"
+    },
+    {
+      "date": "2026-09-29",
+      "reference": "John 8:12",
+      "text": "Again, therefore, Jesus spoke to them, saying, “I am the light of the world. He who follows me will not walk in the darkness, but will have the light of life.”",
+      "translation": "WEB",
+      "image": "2026-09-29.jpg"
+    },
+    {
+      "date": "2026-09-30",
+      "reference": "Romans 5:3-4",
+      "text": "Not only this, but we also rejoice in our sufferings, knowing that suffering produces perseverance; and perseverance, proven character; and proven character, hope:",
+      "translation": "WEB",
+      "image": "2026-09-30.jpg"
+    },
+    {
+      "date": "2026-10-01",
+      "reference": "1 John 4:18",
+      "text": "There is no fear in love; but perfect love casts out fear, because fear has punishment. He who fears is not made perfect in love.",
+      "translation": "WEB",
+      "image": "2026-10-01.jpg"
     }
   ]
 }
