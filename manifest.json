@@ -1,57 +1,8 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-09-24",
+  "updated": "2026-10-01",
   "baseImageURL": "https://domoretechnet.github.io/hawake-verses/images/",
   "days": [
-    {
-      "date": "2026-09-23",
-      "reference": "Hebrews 10:23",
-      "text": "let us hold fast the confession of our hope without wavering; for he who promised is faithful.",
-      "translation": "WEB",
-      "image": "2026-09-23.jpg"
-    },
-    {
-      "date": "2026-09-24",
-      "reference": "1 John 1:9",
-      "text": "If we confess our sins, he is faithful and righteous to forgive us the sins, and to cleanse us from all unrighteousness.",
-      "translation": "WEB",
-      "image": "2026-09-24.jpg"
-    },
-    {
-      "date": "2026-09-25",
-      "reference": "Psalm 27:1",
-      "text": "Yahweh is my light and my salvation. Whom shall I fear? Yahweh is the strength of my life. Of whom shall I be afraid?",
-      "translation": "WEB",
-      "image": "2026-09-25.jpg"
-    },
-    {
-      "date": "2026-09-26",
-      "reference": "Psalm 55:22",
-      "text": "Cast your burden on Yahweh, and he will sustain you. He will never allow the righteous to be moved.",
-      "translation": "WEB",
-      "image": "2026-09-26.jpg"
-    },
-    {
-      "date": "2026-09-27",
-      "reference": "Psalm 103:1-2",
-      "text": "Praise Yahweh, my soul! All that is within me, praise his holy name! Praise Yahweh, my soul, and don’t forget all his benefits;",
-      "translation": "WEB",
-      "image": "2026-09-27.jpg"
-    },
-    {
-      "date": "2026-09-28",
-      "reference": "Jeremiah 17:7-8",
-      "text": "“Blessed is the man who trusts in Yahweh, and whose confidence is in Yahweh. For he will be as a tree planted by the waters, who spreads out its roots by the river, and will not fear when heat comes, but its leaf will be green; and will not be concerned in the year of drought. It won’t cease from yielding fruit.",
-      "translation": "WEB",
-      "image": "2026-09-28.jpg"
-    },
-    {
-      "date": "2026-09-29",
-      "reference": "John 8:12",
-      "text": "Again, therefore, Jesus spoke to them, saying, “I am the light of the world. He who follows me will not walk in the darkness, but will have the light of life.”",
-      "translation": "WEB",
-      "image": "2026-09-29.jpg"
-    },
     {
       "date": "2026-09-30",
       "reference": "Romans 5:3-4",
@@ -114,6 +65,55 @@
       "text": "Be strong, and let your heart take courage, all you who hope in Yahweh.",
       "translation": "WEB",
       "image": "2026-10-08.jpg"
+    },
+    {
+      "date": "2026-10-09",
+      "reference": "Psalm 107:1",
+      "text": "Give thanks to Yahweh, for he is good, for his loving kindness endures forever.",
+      "translation": "WEB",
+      "image": "2026-10-09.jpg"
+    },
+    {
+      "date": "2026-10-10",
+      "reference": "Psalm 29:11",
+      "text": "Yahweh will give strength to his people. Yahweh will bless his people with peace.",
+      "translation": "WEB",
+      "image": "2026-10-10.jpg"
+    },
+    {
+      "date": "2026-10-11",
+      "reference": "Hebrews 4:16",
+      "text": "Let’s therefore draw near with boldness to the throne of grace, that we may receive mercy and may find grace for help in time of need.",
+      "translation": "WEB",
+      "image": "2026-10-11.jpg"
+    },
+    {
+      "date": "2026-10-12",
+      "reference": "Deuteronomy 31:6",
+      "text": "Be strong and courageous. Don’t be afraid or scared of them, for Yahweh your God himself is who goes with you. He will not fail you nor forsake you.",
+      "translation": "WEB",
+      "image": "2026-10-12.jpg"
+    },
+    {
+      "date": "2026-10-13",
+      "reference": "Psalm 116:1-2",
+      "text": "I love Yahweh, because he listens to my voice, and my cries for mercy. Because he has turned his ear to me, therefore I will call on him as long as I live.",
+      "translation": "WEB",
+      "image": "2026-10-13.jpg"
+    },
+    {
+      "date": "2026-10-14",
+      "reference": "Psalm 126:5",
+      "text": "Those who sow in tears will reap in joy.",
+      "translation": "WEB",
+      "image": "2026-10-14.jpg"
+    },
+    {
+      "date": "2026-10-15",
+      "reference": "Romans 8:38-39",
+      "text": "For I am persuaded that neither death, nor life, nor angels, nor principalities, nor things present, nor things to come, nor powers, nor height, nor depth, nor any other created thing will be able to separate us from God’s love which is in Christ Jesus our Lord.",
+      "translation": "WEB",
+      "image": "2026-10-15.jpg"
     }
   ]
 }
