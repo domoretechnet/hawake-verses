@@ -1,57 +1,8 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-10-08",
+  "updated": "2026-10-15",
   "baseImageURL": "https://domoretechnet.github.io/hawake-verses/images/",
   "days": [
-    {
-      "date": "2026-10-07",
-      "reference": "2 Corinthians 9:8",
-      "text": "And God is able to make all grace abound to you, that you, always having all sufficiency in everything, may abound to every good work.",
-      "translation": "WEB",
-      "image": "2026-10-07.jpg"
-    },
-    {
-      "date": "2026-10-08",
-      "reference": "Psalm 31:24",
-      "text": "Be strong, and let your heart take courage, all you who hope in Yahweh.",
-      "translation": "WEB",
-      "image": "2026-10-08.jpg"
-    },
-    {
-      "date": "2026-10-09",
-      "reference": "Psalm 107:1",
-      "text": "Give thanks to Yahweh, for he is good, for his loving kindness endures forever.",
-      "translation": "WEB",
-      "image": "2026-10-09.jpg"
-    },
-    {
-      "date": "2026-10-10",
-      "reference": "Psalm 29:11",
-      "text": "Yahweh will give strength to his people. Yahweh will bless his people with peace.",
-      "translation": "WEB",
-      "image": "2026-10-10.jpg"
-    },
-    {
-      "date": "2026-10-11",
-      "reference": "Hebrews 4:16",
-      "text": "Let’s therefore draw near with boldness to the throne of grace, that we may receive mercy and may find grace for help in time of need.",
-      "translation": "WEB",
-      "image": "2026-10-11.jpg"
-    },
-    {
-      "date": "2026-10-12",
-      "reference": "Deuteronomy 31:6",
-      "text": "Be strong and courageous. Don’t be afraid or scared of them, for Yahweh your God himself is who goes with you. He will not fail you nor forsake you.",
-      "translation": "WEB",
-      "image": "2026-10-12.jpg"
-    },
-    {
-      "date": "2026-10-13",
-      "reference": "Psalm 116:1-2",
-      "text": "I love Yahweh, because he listens to my voice, and my cries for mercy. Because he has turned his ear to me, therefore I will call on him as long as I live.",
-      "translation": "WEB",
-      "image": "2026-10-13.jpg"
-    },
     {
       "date": "2026-10-14",
       "reference": "Psalm 126:5",
@@ -114,6 +65,55 @@
       "text": "A gentle answer turns away wrath, but a harsh word stirs up anger.",
       "translation": "WEB",
       "image": "2026-10-22.jpg"
+    },
+    {
+      "date": "2026-10-23",
+      "reference": "Psalm 150:6",
+      "text": "Let everything that has breath praise Yah! Praise Yah!",
+      "translation": "WEB",
+      "image": "2026-10-23.jpg"
+    },
+    {
+      "date": "2026-10-24",
+      "reference": "John 15:13",
+      "text": "Greater love has no one than this, that someone lay down his life for his friends.",
+      "translation": "WEB",
+      "image": "2026-10-24.jpg"
+    },
+    {
+      "date": "2026-10-25",
+      "reference": "2 Corinthians 4:16-18",
+      "text": "Therefore we don’t faint, but though our outward person is decaying, yet our inward person is renewed day by day. For our light affliction, which is for the moment, works for us more and more exceedingly an eternal weight of glory, while we don’t look at the things which are seen, but at the things which are not seen. For the things which are seen are temporal, but the things which are not seen are eternal.",
+      "translation": "WEB",
+      "image": "2026-10-25.jpg"
+    },
+    {
+      "date": "2026-10-26",
+      "reference": "James 4:8",
+      "text": "Draw near to God, and he will draw near to you. Cleanse your hands, you sinners. Purify your hearts, you double-minded.",
+      "translation": "WEB",
+      "image": "2026-10-26.jpg"
+    },
+    {
+      "date": "2026-10-27",
+      "reference": "Proverbs 31:25",
+      "text": "Strength and dignity are her clothing. She laughs at the time to come.",
+      "translation": "WEB",
+      "image": "2026-10-27.jpg"
+    },
+    {
+      "date": "2026-10-28",
+      "reference": "Ecclesiastes 3:1",
+      "text": "For everything there is a season, and a time for every purpose under heaven:",
+      "translation": "WEB",
+      "image": "2026-10-28.jpg"
+    },
+    {
+      "date": "2026-10-29",
+      "reference": "Psalm 18:2",
+      "text": "Yahweh is my rock, my fortress, and my deliverer; my God, my rock, in whom I take refuge; my shield, and the horn of my salvation, my high tower.",
+      "translation": "WEB",
+      "image": "2026-10-29.jpg"
     }
   ]
 }
