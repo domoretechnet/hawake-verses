@@ -1,57 +1,8 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-10-15",
+  "updated": "2026-10-22",
   "baseImageURL": "https://domoretechnet.github.io/hawake-verses/images/",
   "days": [
-    {
-      "date": "2026-10-14",
-      "reference": "Psalm 126:5",
-      "text": "Those who sow in tears will reap in joy.",
-      "translation": "WEB",
-      "image": "2026-10-14.jpg"
-    },
-    {
-      "date": "2026-10-15",
-      "reference": "Romans 8:38-39",
-      "text": "For I am persuaded that neither death, nor life, nor angels, nor principalities, nor things present, nor things to come, nor powers, nor height, nor depth, nor any other created thing will be able to separate us from God’s love which is in Christ Jesus our Lord.",
-      "translation": "WEB",
-      "image": "2026-10-15.jpg"
-    },
-    {
-      "date": "2026-10-16",
-      "reference": "Psalm 94:19",
-      "text": "In the multitude of my thoughts within me, your comforts delight my soul.",
-      "translation": "WEB",
-      "image": "2026-10-16.jpg"
-    },
-    {
-      "date": "2026-10-17",
-      "reference": "Matthew 7:7",
-      "text": "Ask, and it will be given you. Seek, and you will find. Knock, and it will be opened for you.",
-      "translation": "WEB",
-      "image": "2026-10-17.jpg"
-    },
-    {
-      "date": "2026-10-18",
-      "reference": "Proverbs 18:10",
-      "text": "Yahweh’s name is a strong tower: the righteous run to him, and are safe.",
-      "translation": "WEB",
-      "image": "2026-10-18.jpg"
-    },
-    {
-      "date": "2026-10-19",
-      "reference": "1 Timothy 6:6",
-      "text": "But godliness with contentment is great gain.",
-      "translation": "WEB",
-      "image": "2026-10-19.jpg"
-    },
-    {
-      "date": "2026-10-20",
-      "reference": "Psalm 16:8",
-      "text": "I have set Yahweh always before me. Because he is at my right hand, I shall not be moved.",
-      "translation": "WEB",
-      "image": "2026-10-20.jpg"
-    },
     {
       "date": "2026-10-21",
       "reference": "1 Peter 1:3",
@@ -114,6 +65,55 @@
       "text": "Yahweh is my rock, my fortress, and my deliverer; my God, my rock, in whom I take refuge; my shield, and the horn of my salvation, my high tower.",
       "translation": "WEB",
       "image": "2026-10-29.jpg"
+    },
+    {
+      "date": "2026-10-30",
+      "reference": "Psalm 84:11",
+      "text": "For Yahweh God is a sun and a shield. Yahweh will give grace and glory. He withholds no good thing from those who walk blamelessly.",
+      "translation": "WEB",
+      "image": "2026-10-30.jpg"
+    },
+    {
+      "date": "2026-10-31",
+      "reference": "1 Chronicles 16:11",
+      "text": "Seek Yahweh and his strength. Seek his face forever more.",
+      "translation": "WEB",
+      "image": "2026-10-31.jpg"
+    },
+    {
+      "date": "2026-11-01",
+      "reference": "Philippians 4:8",
+      "text": "Finally, brothers, whatever things are true, whatever things are honorable, whatever things are just, whatever things are pure, whatever things are lovely, whatever things are of good report; if there is any virtue, and if there is any praise, think about these things.",
+      "translation": "WEB",
+      "image": "2026-11-01.jpg"
+    },
+    {
+      "date": "2026-11-02",
+      "reference": "Proverbs 16:9",
+      "text": "A man’s heart plans his course, but Yahweh directs his steps.",
+      "translation": "WEB",
+      "image": "2026-11-02.jpg"
+    },
+    {
+      "date": "2026-11-03",
+      "reference": "Revelation 21:4",
+      "text": "He will wipe away every tear from their eyes. Death will be no more; neither will there be mourning, nor crying, nor pain, any more. The first things have passed away.”",
+      "translation": "WEB",
+      "image": "2026-11-03.jpg"
+    },
+    {
+      "date": "2026-11-04",
+      "reference": "1 Peter 4:8",
+      "text": "And above all things be earnest in your love among yourselves, for love covers a multitude of sins.",
+      "translation": "WEB",
+      "image": "2026-11-04.jpg"
+    },
+    {
+      "date": "2026-11-05",
+      "reference": "Nehemiah 8:10",
+      "text": "Then he said to them, “Go your way. Eat the fat, drink the sweet, and send portions to him for whom nothing is prepared, for today is holy to our Lord. Don’t be grieved, for the joy of Yahweh is your strength.”",
+      "translation": "WEB",
+      "image": "2026-11-05.jpg"
     }
   ]
 }
