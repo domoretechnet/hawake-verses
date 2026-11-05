@@ -1,43 +1,8 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-10-31",
+  "updated": "2026-11-05",
   "baseImageURL": "https://domoretechnet.github.io/hawake-verses/images/",
   "days": [
-    {
-      "date": "2026-10-30",
-      "reference": "Psalm 84:11",
-      "text": "For Yahweh God is a sun and a shield. Yahweh will give grace and glory. He withholds no good thing from those who walk blamelessly.",
-      "translation": "WEB",
-      "image": "2026-10-30.jpg"
-    },
-    {
-      "date": "2026-10-31",
-      "reference": "1 Chronicles 16:11",
-      "text": "Seek Yahweh and his strength. Seek his face forever more.",
-      "translation": "WEB",
-      "image": "2026-10-31.jpg"
-    },
-    {
-      "date": "2026-11-01",
-      "reference": "Philippians 4:8",
-      "text": "Finally, brothers, whatever things are true, whatever things are honorable, whatever things are just, whatever things are pure, whatever things are lovely, whatever things are of good report; if there is any virtue, and if there is any praise, think about these things.",
-      "translation": "WEB",
-      "image": "2026-11-01.jpg"
-    },
-    {
-      "date": "2026-11-02",
-      "reference": "Proverbs 16:9",
-      "text": "A man’s heart plans his course, but Yahweh directs his steps.",
-      "translation": "WEB",
-      "image": "2026-11-02.jpg"
-    },
-    {
-      "date": "2026-11-03",
-      "reference": "Revelation 21:4",
-      "text": "He will wipe away every tear from their eyes. Death will be no more; neither will there be mourning, nor crying, nor pain, any more. The first things have passed away.”",
-      "translation": "WEB",
-      "image": "2026-11-03.jpg"
-    },
     {
       "date": "2026-11-04",
       "reference": "1 Peter 4:8",
@@ -114,6 +79,41 @@
       "text": "See how good and how pleasant it is for brothers to live together in unity!",
       "translation": "WEB",
       "image": "2026-11-14.jpg"
+    },
+    {
+      "date": "2026-11-15",
+      "reference": "Psalm 28:7",
+      "text": "Yahweh is my strength and my shield. My heart has trusted in him, and I am helped. Therefore my heart greatly rejoices. With my song I will thank him.",
+      "translation": "WEB",
+      "image": "2026-11-15.jpg"
+    },
+    {
+      "date": "2026-11-16",
+      "reference": "Isaiah 55:8-9",
+      "text": "“For my thoughts are not your thoughts, and your ways are not my ways,” says Yahweh. “For as the heavens are higher than the earth, so are my ways higher than your ways, and my thoughts than your thoughts.",
+      "translation": "WEB",
+      "image": "2026-11-16.jpg"
+    },
+    {
+      "date": "2026-11-17",
+      "reference": "1 Corinthians 13:4-5",
+      "text": "Love is patient and is kind. Love doesn’t envy. Love doesn’t brag, is not proud, doesn’t behave itself inappropriately, doesn’t seek its own way, is not provoked, takes no account of evil;",
+      "translation": "WEB",
+      "image": "2026-11-17.jpg"
+    },
+    {
+      "date": "2026-11-18",
+      "reference": "Psalm 145:18",
+      "text": "Yahweh is near to all those who call on him, to all who call on him in truth.",
+      "translation": "WEB",
+      "image": "2026-11-18.jpg"
+    },
+    {
+      "date": "2026-11-19",
+      "reference": "Habakkuk 3:19",
+      "text": "Yahweh, the Lord, is my strength. He makes my feet like deer’s feet, and enables me to go in high places.",
+      "translation": "WEB",
+      "image": "2026-11-19.jpg"
     }
   ]
 }
